@@ -1,0 +1,8 @@
+defmodule CompileDataBeamSplitFiles.N<%= number %> do
+
+  <%= total%>
+  |> CompileDataBeamSplitFiles.Help.split_map()
+  |> Map.get(<%= number %>)
+  |> Enum.map(fn {k, v} -> def get(unquote(k)), do: unquote(v) end)
+
+end
