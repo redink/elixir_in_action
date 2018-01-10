@@ -18,3 +18,8 @@ end
 ```
 
 Then we call the `CompileDataBeam_1.test_beam_data()` function and will get the data `%{a: "a", b: "b"}`. But, how it works? Let's continue:
+
+* [@expr](./1_1_using_expr.md)
+* [define functions](./1_2_def_functions.md)
+* [define modules](./1_3_def_modules.md)
+* [define modules using multi-files](./1_4_def_modules_split_files.md)
