@@ -13,7 +13,7 @@ $ ls Elixir.CompileDataBeam_1.beam
 Elixir.CompileDataBeam_1.beam
 ```
 
-Let's do something others, first convert the beam file to the erl source code through `[erlware_commons](https://github.com/erlware/erlware_commons)`
+Let's do something others, first convert the beam file to the erl source code through  [erlware_commons](https://github.com/erlware/erlware_commons)
 
 ```
 $ iex -pa erlware_commons/_build/default/lib/erlware_commons/ebin/
